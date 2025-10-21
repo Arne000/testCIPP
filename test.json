@@ -1,5 +1,8 @@
 {
-  "user": {
-    "name": "test"
-  }
+  "ETag": "W/\"datetime'2025-10-21T00%3A00%3A00.0000000Z'\"",
+  "PartitionKey": "StandardsTemplateV2",
+  "RowKey": "8e3d7e6c-2b1b-4e2a-a5f8-9e6a5e2f1b42",
+  "Timestamp": "2025-10-21T00:00:00.0000000+00:00",
+  "GUID": "8e3d7e6c-2b1b-4e2a-a5f8-9e6a5e2f1b42",
+  "JSON": "{\n  \"tenantFilter\": [],\n  \"excludedTenants\": [],\n  \"description\": \"<h2>Require Admin Consent for Applications</h2><p>Blocks user consent to OAuth applications. Admin approval required. Add exceptions by listing App (client) IDs in AllowedApps.</p>\",\n  \"templateName\": \"Require Admin Consent (No User Consent)\",\n  \"standards\": {\n    \"OauthConsent\": {\n      \"action\": [\n        { \"label\": \"Remediate\", \"value\": \"Remediate\" }\n      ],\n      \"standards\": {\n        \"OauthConsent\": {\n          \"AllowedApps\": \"\"\n        }\n      }\n    }\n  },\n  \"runManually\": true,\n  \"GUID\": \"8e3d7e6c-2b1b-4e2a-a5f8-9e6a5e2f1b42\"\n}"
 }
