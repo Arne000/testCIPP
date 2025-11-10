@@ -1,0 +1,8 @@
+Value:
+
+{
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#policies/authorizationPolicy(permissionGrantPolicyIdsAssignedToDefaultUserRole)/$entity",
+  "permissionGrantPolicyIdsAssignedToDefaultUserRole": [
+    "ManagePermissionGrantsForSelf.cipp-consent-policy"
+  ]
+}
